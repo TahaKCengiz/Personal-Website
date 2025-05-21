@@ -1,0 +1,17 @@
+.menu_ilk{
+    background-color: aquamarine; 
+    margin-left: 20%;
+}
+
+.menu_orta{
+    margin-left: 10px;   
+    background-color: aquamarine; 
+    text-align: center;
+}
+
+.menu_son{
+    float: right; 
+    margin-right: 30px;   
+    background-color: aquamarine; 
+    text-align: center;
+}
