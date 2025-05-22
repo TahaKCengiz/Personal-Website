@@ -5,73 +5,33 @@
     <meta name="viewport" content="width=device=width , initial-scale=1">
     <title>Hakkımda</title>
     <link rel="stylesheet" href="css/Genel.css">
-    <title>Ana Sayfa</title>
-  
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 
 <body style="background-color: #575757;">  
-    <div style="background-color: #3A3A3A; height: 50px; padding-top: 10px;">
-         <div id="mobil-menu" class="mobil_menu">
-            <div class="cizgi"></div>
-            <div class="cizgi"></div>
-            <div class="cizgi"></div>
-            <div id="menu-elemanlari" class="menu_gizle" style="margin-top: 10px; width: 150px; height: 180px; background-color: #777777;">
-                <div style="height: 25px;">
-                     <a href="Hakkimda.html" class="menu_orta" style="float: left; margin-left: 0px;"> HAKKIMDA</a>
+    <nav class="navbar navbar-expand-lg pt-0" s>
+        <div class="container-fluid " style="background-color: #3A3A3A; height: 60px;;">
+            <a href="" class="navbar-brand" style="margin-right: 30px; color: #f7f7f7; font-size: 40px; font-family: Poetsen One;"> T </a>
+            <button class="navbar-toggler" style="background-color: #838383;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="background-color: #838383;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                 <div class="navbar-nav" style="font-size: 25px; font-family: Poetsen One;">
+                    <a class="nav-link active" aria-current="page" href="#">HAKKIMDA</a>
+                    <a class="nav-link" href="Egitim.html">ÖZGEÇMİŞ</a>
+                    <a class="nav-link" href="Ilgialanlarim.html">İLGİ ALANLARIM</a>
+                    <a class="nav-link" href="Sehirim.html">ŞEHRİM</a>
+                    <a class="nav-link" href="Mirasimiz.html">MİRASIMIZ</a>
+                    <a class="nav-link" href="Iletisim.html">İLETİŞİM</a>
+                    <a class="nav-link"  href="Giris.html">GİRİŞ</a>
                 </div>
-                <div style="height: 25px;">
-                    <a href="Egitim.html" class="menu_orta" style="float: left; margin-left: 0px;"> ÖZGEÇMİŞ</a>
-                </div>
-                <div style="height: 25px;">
-                    <a href="Ilgialanlarim.html" class="menu_orta" style="float: left; margin-left: 0px;"> İLGİ ALANLARIM</a>
-                </div>
-                <div style="height: 25px;">
-                    <a href="Sehirim.html" class="menu_orta" style="float: left; margin-left: 0px;"> ŞEHRİM</a>
-                </div>
-                <div style="height: 25px;">
-                    <a href="Mirasimiz.html" class="menu_orta" style="float: left; margin-left: 0px;"> MİRASIMIZ</a>
-                </div>
-                <div style="height: 25px;">
-                   <a href="Iletisim.html" class="menu_orta" style="float: left; margin-left: 0px;"> İLETİŞİM</a>
-                </div>
-                <div style="height: 25px;">
-                   <a href="Login.html" class="menu_orta" style="float: left; margin-left: 0px;"> GİRİŞ</a>
-                </div>
-               
             </div>
-        </div>
-        <a href="Hakkimda.html" class="menu menu_ilk"> HAKKIMDA</a>
-        <a href="Egitim.html" class="menu menu_orta"> ÖZGEÇMİŞ</a>
-        <a href="Ilgialanlarim.html" class="menu menu_orta"> İLGİ ALANLARIM</a>
-        <a href="Sehirim.html" class="menu menu_orta"> ŞEHRİM</a>
-        <a href="Mirasimiz.html" class="menu menu_orta"> MİRASIMIZ</a>
-        <a href="Iletisim.html" class="menu menu_orta"> İLETİŞİM</a>
-        <a href="Login.html" class="menu menu_son"> GİRİŞ</a>
-    </div>
-    <script>
-        const menu = document.getElementById('menu-elemanlari');
 
-        document.getElementById('mobil-menu').addEventListener('click', function() {
-             event.stopPropagation();
-            if (menu.classList.contains('menu_gizle')) {
-                menu.classList.remove('menu_gizle');
-                menu.classList.add('menu_goster');
-            }else{
-                menu.classList.remove('menu_goster');
-                menu.classList.add('menu_gizle');
-            }
-        });
-        document.addEventListener('click', function () {
-            if (menu.classList.contains('menu_goster')) {
-                menu.classList.remove('menu_goster');
-                menu.classList.add('menu_gizle');
-            }
-        });
-        menu.addEventListener('click', function (event) {
-           
-        });
-    </script>
+        </div>
+
+
+    </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
