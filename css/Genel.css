@@ -1,4 +1,37 @@
+@media (max-width: 993px) {
+  .mobil{
+    text-align: center !important;
+  }
+  #navbarNavAltMarkup{
+   
+    text-align: center;
+  }
+  .navbar{
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  body{
+    padding-top: 80px;
+  }
+}
 
+.link{
+    text-decoration: none; 
+    color: rgb(155, 154, 154);
+}
+
+.link:hover{
+    color: rgb(204, 204, 204);
+}
+
+.mobil p{
+    color: aliceblue !important;
+    opacity: 100% !important;
+    font-size: 20px;
+}
 
 .nav-link:hover{
     color: #f7f7f7 !important;
@@ -14,8 +47,12 @@
 }
 
 #navbarNavAltMarkup{
-    background-color: #3a3a3a;
     border-radius: 10px;
 }
 
 
+.Rubik{
+    font-family: "Rubik" !important;
+    font-weight: 700px;
+    font-size: 23px;
+}

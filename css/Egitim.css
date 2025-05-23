@@ -1,0 +1,50 @@
+@media (max-width:994px) {
+    .cerceve{
+        height: auto !important;
+        
+    }
+    .baslik{
+        flex: 0 1 auto !important;
+        font-size: 20px !important;
+    }
+    .ana-baslik{
+        font-size: 30px !important;
+        font-weight: bold;
+    }
+    .aciklama{
+        font-size: 20px !important;
+    }
+}
+
+.cerceve{
+    height: 70px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 40px !important;
+}
+
+
+.ana-baslik{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.baslik{
+    width: auto !important;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Rubik";
+    color: #b9b9b9;
+    background-color: #3b3b3b;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.aciklama{
+    width: auto !important;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Rubik";
+    color:aliceblue;
+}
