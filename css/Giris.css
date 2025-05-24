@@ -1,0 +1,19 @@
+.btn:hover{
+
+    background-color: #43474b !important;
+
+}
+
+#giris{
+    font-weight: bold; 
+    font-size: 50px; 
+    margin-left: 15px;
+}
+
+
+@media (max-width: 1275px){
+    #giris{
+        display: block;
+        text-align: center !important;
+    }
+}

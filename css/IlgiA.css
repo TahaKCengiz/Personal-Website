@@ -1,0 +1,23 @@
+.ana-baslik{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.baslik .h2{
+    width: auto !important;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Rubik";
+    color: #b9b9b9;
+    background-color: #3b3b3b;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.ogeler{
+    background-color: transparent !important;
+    font-family: "Rubik";
+    
+    width: 400px !important;
+}
+
