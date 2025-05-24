@@ -17,22 +17,23 @@ const Kontrol = () => {
       var renk = form.renk.value;
       var dosya = form.dosya.files[0];
 
+
       if (!ad) {
-        hata = "Ad eksik";
+        hata = "Ad eksik!";
       } else if (!email.includes("@")) {
-        hata = "E-posta hatalı";
+        hata = "Eposta hatalı!";
       } else if (sifre.length < 6) {
-        hata = "Şifre kısa";
+        hata = "Şifre kısa!";
       } else if (!mesaj || mesaj.length < 10) {
-        hata = "Mesaj yeterli değil";
+        hata = "Mesaj yeterli uzunlukta değil!";
       } else if (!cinsiyet) {
-        hata = "Cinsiyet seçilmeli";
+        hata = "Cinsiyet seçilmedi!";
       } else if (ilgiler.length < 1) {
-        hata = "İlgi seçilmeli";
+        hata = "İlgi seçilmeli!";
       } else if (!renk) {
-        hata = "Renk girilmedi";
+        hata = "Renk seçilmedi!";
       } else if (!dosya) {
-        hata = "Dosya yok";
+        hata = "Dosya yok!";
       }
 
       if (hata) {

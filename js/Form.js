@@ -12,13 +12,13 @@ document.getElementById("gonder_").addEventListener("click", function () {
 
   if (ad == "") hataMesaji += "Ad boş olamaz<br>";
   if (email == "" || !/^\S+@\S+\.\S+$/.test(email)) hataMesaji += "Geçerli bir e-posta girin <br>";
-  if (sifre.length < 6) hataMesaji += "Şifre en az 6 karakter olmalı <br>";
-  if (mesaj.length < 15) hataMesaji += "Mesaj en az 15 karakter olmalı <br>";
-  if (cinsiyetler.length == 0) hataMesaji += "insiyet seçilmeli<br>";
-  if (ilgiler.length == 0) hataMesaji += "En az bir ilgi alanı seçilmeli <br>";
-  if (!renk) hataMesaji += "Renk seçilmeli<br>";
+  if (sifre.length < 6) hataMesaji += "Şifre en az 6 karakter olmalıdır <br>";
+  if (mesaj.length < 15) hataMesaji += "Mesaj en az 15 karakter olmalıdır <br>";
+  if (cinsiyetler.length == 0) hataMesaji += "insiyet seçilmelidir<br>";
+  if (ilgiler.length == 0) hataMesaji += "En az bir ilgi alanı seçilmelidir <br>";
+  if (!renk) hataMesaji += "Renk seçilmelidir<br>";
   if (!dosya) {
-    hataMesaji += "- Dosya seçilmeli<br>";
+    hataMesaji += "- Dosya seçilmelidir<br>";
   } else {
     const kabul = ["image/png", "image/jpeg", "image/gif"];
     if (!kabul.includes(dosya.type)) {
