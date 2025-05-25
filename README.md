@@ -7,11 +7,11 @@ KULLANDIĞIM FONTLAR:
     https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap
     https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap
 
-KULLANDIĞIM RENK PALETİ
+KULLANDIĞIM RENK PALETİ:
     renk-paleti.png
 
-KULLANDIĞIM HOSTİNG SERVİSİ
+KULLANDIĞIM HOSTİNG SERVİSİ:
     https://www.infinityfree.com/
 
-WEB SİTESİ ADRESİ
+WEB SİTESİ ADRESİ:
     https://tahakadir-c.ct.ws/
