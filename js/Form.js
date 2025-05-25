@@ -1,14 +1,16 @@
-document.getElementById("gonder_").addEventListener("click", function () {
+document.getElementById("buton-gonder").addEventListener("click", function () {
+  event.preventDefault();
+
   let hataMesaji = "";
 
-  const ad = document.getElementById("ad").value;
-  const email = document.getElementById("email").value;
-  const sifre = document.getElementById("sifre").value;
-  const mesaj = document.getElementById("mesaj").value;
+  const ad = document.getElementById("ad_").value;
+  const email = document.getElementById("email_").value;
+  const sifre = document.getElementById("sifre_").value;
+  const mesaj = document.getElementById("mesaj_").value;
   const cinsiyetler = document.querySelectorAll('input[name="cinsiyet"]:checked');
   const ilgiler = document.querySelectorAll('input[name="ilgi"]:checked');
-  const renk = document.getElementById("renk").value;
-  const dosya = document.getElementById("dosya").files[0];
+  const renk = document.getElementById("renk_").value;
+  const dosya = document.getElementById("dosya_").files[0];
 
   if (ad == "") hataMesaji += "Ad boş olamaz<br>";
   if (email == "" || !/^\S+@\S+\.\S+$/.test(email)) hataMesaji += "Geçerli bir e-posta girin <br>";

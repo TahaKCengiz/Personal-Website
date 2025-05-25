@@ -7,6 +7,7 @@
     <title>İLETİŞİM</title>
     <link rel="stylesheet" href="css/Genel.css">
     <link rel="stylesheet" href="css/Form.css">
+    <link rel="stylesheet" href="css/Giris.css">
     <script type="text/babel" src="js/Kontrol.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
@@ -25,68 +26,105 @@
         <div class="container-fluid " style="background-color: #3A3A3A;">
             <a href="" class="navbar-brand"
                 style="margin-right: 30px; color: #f7f7f7; font-size: 40px; font-family: Poetsen One;"> T </a>
-            <button class="navbar-toggler" style="background-color: #f7f7f7" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler" style="background-color: #6b6b6b;" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" style="margin-left: 10px;">
-                    <a class="nav-link" href="index.html">HAKKIMDA</a>
-                    <a class="nav-link" href="Egitim.html">ÖZGEÇMİŞ</a>
-                    <a class="nav-link" href="Ilgialanlarim.html">İLGİ ALANLARIM</a>
-                    <a class="nav-link" href="Sehirim.html">ŞEHRİM</a>
-                    <a class="nav-link" href="Mirasimiz.html">MİRASIMIZ</a>
+                    <a class="nav-link" href="https://tahakadir-c.ct.ws/index.html">HAKKIMDA</a>
+                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Egitim.html">ÖZGEÇMİŞ</a>
+                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Ilgialanlarim.html">İLGİ ALANLARIM</a>
+                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Sehirim.html">ŞEHRİM</a>
+                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Mirasimiz.html">MİRASIMIZ</a>
                     <a class="nav-link active" href="#">İLETİŞİM</a>
-                    <a class="nav-link" href="Giris.html">GİRİŞ</a>
+                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Giris.html">GİRİŞ</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class="container-md text-center Rubik shadow">
-        <div class="shadow" style="width: 600px; text-align: left; margin-left: auto; margin-right: auto;">
-            <form action="php/iletisim.php" method="post" class="ms-5" id="form">
-                <label for="ad">Adınız: </label>
-                <input type="text" id="ad" name="ad"><br>
-                <br>
-                <label for="email">E-posta:</label>
-                <input type="email" id="email" name="email"><br>
-                <br>
-                <label for="sifre">Şifre:</label>
-                <input type="password" id="sifre" name="sifre"><br>
-                <br>
-                <label for="mesaj">Mesaj:</label>
-                <textarea id="mesaj" name="mesaj" rows="4" cols="30" style="width: 300px;"></textarea><br>
-                <br>
-                <label>Cinsiyet: </label>
-                <input type="radio" name="cinsiyet" value="erkek"> Erkek
-                <input type="radio" name="cinsiyet" value="kadin"> Kadın<br>
-                <br>
-                <label>İlgi alanları:</label>
-                <input type="checkbox" name="ilgi" value="spor"> Spor
-                <input type="checkbox" name="ilgi" value="müzik"> Müzik<br>
-                <br>
-                <label for="renk">Renk Seç:</label>
-                <input type="color" id="renk" name="renk"><br>
-                <br>
-                <label>Resim Yükle:</label>
-                <label for="dosya" class="buton">GÖZAT</label>
-                <input type="file" id="dosya" name="dosya" accept="image/png, image/jpeg, image/gif"
-                    style="display: none;"><br>
-                <br>
-                <button type="button" id="gonder_" class="buton">Gönder</button>
-                <input type="reset" value="Sıfırla" class="buton">
-                <button value="test" type="button" class="buton" id="test">TEST ET</button>
-                <br>
-                <br>
-            </form>
-        </div>
-        <br>
-        <p id="sonuc">
+
+    <div class="container-md shadow">
+        <form action="php/iletisim.php" method="post" id="form">
+            <h3 class="Rustik ana-baslik mb-4">İLETİŞİM</h3>
+            <div class="row text-start">
+                <label for="ad">
+                    <h4 class="Rustik baslik">İsminiz</h4>
+                </label>
+                <input type="text" class="form-control" name="ad" id="ad_" aria-describedby="emailHelp">
+            </div>
+            <br>
+            <div class="row text-start">
+                <label for="email_">
+                    <h4 class="Rustik baslik">Email</h4>
+                </label>
+                <input type="email" class="form-control" name="mail" id="email_" aria-describedby="emailHelp">
+            </div>
+            <br>
+            <div class="row text-start">
+                <label for="sifre_">
+                    <h4 class="Rustik baslik">Şifre</h4>
+                </label>
+                <input type="password" class="form-control" name="mail" id="sifre_" aria-describedby="emailHelp">
+            </div>
+            <br>
+            <div class="row text-start">
+                <label for="sifre_">
+                    <h4 class="Rustik baslik">Mesaj</h4>
+                </label>
+                <textarea type="password" class="form-control" name="mail" id="mesaj_"
+                    aria-describedby="emailHelp"></textarea>
+            </div>
+            <br>
+            <div class="row text-start">
+                <label for="sifre_">
+                    <h4 class="Rustik baslik">Cinsiyet</h4>
+                </label>
+                <div class="yazi" style="margin-left: 9%;" id="radio">ERKEK <input type="radio" name="cinsiyet"
+                        value="erkek"> KADIN <input type="radio" name="cinsiyet" value="kadin"></div>
+            </div>
+            <br>
+            <div class="row text-start">
+                <label for="ilgi_">
+                    <h4 class="Rustik baslik">İlgi alanları</h4>
+                </label>
+                <div class="yazi" style="margin-left: 9%;" id="radio">SPOR <input type="checkbox" name="ilgi" id="ilgi_"
+                        value="erkek"> MÜZİK <input type="checkbox" name="ilgi" id="ilgi_" value="kadin"></div>
+            </div>
+            <br>
+            <div class="row text-start">
+                <label for="renk_">
+                    <h4 class="Rustik baslik">Renk Seç</h4>
+                </label>
+                <input type="color" id="renk_" name="renk">
+            </div>
+            <br>
+            <div class="row text-start">
+                <label for="dosya_">
+                    <h4 class="Rustik baslik">Resim Yükle</h4>
+                </label>
+                <label for="dosya_" class="buton" id="gozat_">GÖZAT</label>
+                <input type="file" id="dosya_" name="dosya" accept="image/png, image/jpeg, image/gif" style="display: none;">
+            </div>
+            <br>
+            <input type="submit" class="buton baslik" id="buton-gonder" value="Gönder">
+            <input type="reset" value="Sıfırla" class="buton baslik" id="buton-sil">
+            <button value="test" type="button" class="buton baslik" id="buton-test">TEST ET</button>
+            <br>
+            <br>
+        </form>
+        <p class="baslik" id="sonuc">
 
         </p>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <script src="js/Form.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"

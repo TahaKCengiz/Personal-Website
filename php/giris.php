@@ -1,7 +1,7 @@
 <?php
 
-    $mail = $_POST['mail'];
-    $sifre = $_POST['sifre'];
+    $mail = $_POST['email_'];
+    $sifre = $_POST['sifre_'];
     
     if($mail == "b241210086@sakarya.edu.tr" && $sifre == "b241210086"){
         readfile("GirisEksik.html");

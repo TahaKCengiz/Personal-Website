@@ -1,19 +1,123 @@
-.btn:hover{
-
-    background-color: #43474b !important;
-
+#ad_ {
+  background-color: #575757;
+  color: #e1e1e1;
+  border-color: #3a3a3a;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#giris{
-    font-weight: bold; 
-    font-size: 50px; 
-    margin-left: 15px;
+#email_ {
+  background-color: #575757;
+  color: #e1e1e1;
+  border-color: #3a3a3a;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#sifre_ {
+  background-color: #575757;
+  color: #e1e1e1;
+  border-color: #3a3a3a;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-@media (max-width: 1275px){
-    #giris{
-        display: block;
-        text-align: center !important;
-    }
+#mesaj_ {
+  background-color: #575757;
+  color: #e1e1e1;
+  border-color: #3a3a3a;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#renk_ {
+  background-color: #575757;
+  color: #e1e1e1;
+  border-color: #3a3a3a;
+  width: 10%;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+#gozat_ {
+  width: 80px !important;
+  height: 40px;
+  padding-top: 8px;
+  margin-left: 10%;
+}
+
+.baslik {
+  text-align: left;
+  margin-left: 9%;
+  font-size: 23px !important;
+}
+
+.buton {
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border-color: #212529;
+  background-color: #212529;
+  color: #f7f7f7;
+}
+
+.yazi {
+  color: #212529;
+}
+
+#buton-sil {
+  width:auto;
+  margin-left: 0px;
+}
+
+#buton-test {
+  width: auto;
+  margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+  .baslik {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #buton {
+    margin-right: 20% !important;
+    margin-left: 20% !important;
+    width: 60%;
+  }
+  #buton-gonder {
+    margin-right: 20% !important;
+    margin-left: 20% !important;
+    width: 60%;
+  }
+  #buton-sil {
+    margin-right: 20% !important;
+    margin-left: 20% !important;
+    width: 60%;
+  }
+  #buton-test {
+    margin-right: 20% !important;
+    margin-left: 20% !important;
+    width: 60%;
+  }
+  #radio {
+    text-align: center;
+    margin-left: 0px !important;
+  }
+
+  #renk_ {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #gozat_ {
+    width: 80px !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 }

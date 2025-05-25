@@ -1,6 +1,6 @@
 const Kontrol = () => {
   React.useEffect(() => {
-    var btn = document.getElementById("test");
+    var btn = document.getElementById("buton-test");
     if (!btn) return;
 
     function kontrolEt() {
@@ -8,15 +8,14 @@ const Kontrol = () => {
       var sonuc = document.getElementById("sonuc");
       var hata = "";
 
-      var ad = form.ad.value.trim();
-      var email = form.email.value.trim();
-      var sifre = form.sifre.value;
-      var mesaj = form.mesaj.value;
+      var ad = form.ad_.value.trim();
+      var email = form.email_.value.trim();
+      var sifre = form.sifre_.value;
+      var mesaj = form.mesaj_.value;
       var cinsiyet = form.querySelector('input[name="cinsiyet"]:checked');
       var ilgiler = form.querySelectorAll('input[name="ilgi"]:checked');
-      var renk = form.renk.value;
-      var dosya = form.dosya.files[0];
-
+      var renk = form.renk_.value;
+      var dosya = form.dosya_.files[0];
 
       if (!ad) {
         hata = "Ad eksik!";

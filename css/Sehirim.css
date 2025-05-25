@@ -17,6 +17,27 @@
     display: block;
   }
 }
+@media (max-width: 610px) {
+  #resim {
+    width: 500px !important;
+    object-fit: fill;
+    display: block;
+  }
+}
+@media (max-width: 520px) {
+  #resim {
+    width: 350px !important;
+    object-fit: fill;
+    display: block;
+  }
+}
+@media (max-width: 370px) {
+  #resim {
+    width: 200px !important;
+    object-fit: fill;
+    display: block;
+  }
+}
 
 #resim {
   width: 900px;

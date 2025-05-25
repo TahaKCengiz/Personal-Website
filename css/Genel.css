@@ -1,58 +1,112 @@
-@media (max-width: 993px) {
-  .mobil{
-    text-align: center !important;
+.ana-baslik {
+  color: #212529;
+  font-weight: bold;
+  font-size: 40px !important;
+}
+
+.baslik {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Rubik";
+  color: #212529;
+  text-align: left;
+}
+
+.yazi {
+  font-size: 25px;
+  font-family: "Rubik";
+  color: aliceblue;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(155, 154, 154);
+}
+
+.link:hover {
+  color: rgb(204, 204, 204);
+}
+
+.mobil p {
+  color: aliceblue !important;
+  opacity: 100% !important;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #f7f7f7 !important;
+}
+
+.nav-link {
+  color: #838383 !important;
+}
+
+.active {
+  color: #f7f7f7 !important;
+}
+
+.Rubik {
+  font-family: "Rubik" !important;
+  font-weight: 700px;
+  font-size: 23px;
+}
+
+#navbarNavAltMarkup {
+  border-radius: 10px;
+}
+
+@media (max-width: 320px) {
+  .baslik {
+    font-size: 12px !important;
   }
-  #navbarNavAltMarkup{
-   
+  .yazi {
+    font-size: 10px !important;
+  }
+}
+@media (min-width:320px) and (max-width: 576px) {
+  .baslik {
+    font-size: 18px !important;
+  }
+  .yazi {
+    font-size: 14px !important;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .baslik {
+    font-size: 20px !important;
+  }
+  .yazi {
+    font-size: 18px !important;
+  }
+  .ana-baslik{
+    font-size: 30px !important;
+  }
+  .ana-baslik{
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 768px) {
+  .ana-baslik {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px !important;
   }
-  .navbar{
-    position: fixed !important;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-  body{
-    padding-top: 80px;
+  .baslik {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px !important;
   }
 }
-
-.link{
-    text-decoration: none; 
-    color: rgb(155, 154, 154);
+@media (min-width: 768px) and (max-width: 992px) {
+  .baslik {
+    font-size: 20px !important;
+  }
+  .yazi {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 992px) {
 }
 
-.link:hover{
-    color: rgb(204, 204, 204);
-}
-
-.mobil p{
-    color: aliceblue !important;
-    opacity: 100% !important;
-    font-size: 20px;
-}
-
-.nav-link:hover{
-    color: #f7f7f7 !important;
-
-}
-
-.nav-link{
-    color: #838383 !important;
-}
-
-.active{
-    color: #f7f7f7 !important;
-}
-
-#navbarNavAltMarkup{
-    border-radius: 10px;
-}
-
-
-.Rubik{
-    font-family: "Rubik" !important;
-    font-weight: 700px;
-    font-size: 23px;
-}
