@@ -1,5 +1,5 @@
 <?php
-echo "Gönderilen Mesaj";
+echo "Gönderilen Mesaj<br>";
 echo "Adınız: " . ($_POST["ad"]) . "<br>";
 echo "E-posta: " . ($_POST["email"]) ."<br>";
 echo "Şifre: " . ($_POST["sifre"]) . "<br>";
