@@ -21,41 +21,40 @@
         <div class="container-fluid " style="background-color: #3A3A3A;">
             <a href="" class="navbar-brand"
                 style="margin-right: 30px; color: #f7f7f7; font-size: 40px; font-family: Poetsen One;"> T </a>
-            <button class="navbar-toggler" style="background-color: #6b6b6b" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler" style="background-color:  #535353" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" style="margin-left: 10px;">
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/index.html">HAKKIMDA</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Egitim.html">ÖZGEÇMİŞ</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Ilgialanlarim.html">İLGİ ALANLARIM</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Sehirim.html">ŞEHRİM</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Mirasimiz.html">MİRASIMIZ</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Iletisim.html">İLETİŞİM</a>
+                    <a class="nav-link" href="/index.html">HAKKIMDA</a>
+                    <a class="nav-link" href="Egitim.html">ÖZGEÇMİŞ</a>
+                    <a class="nav-link" href="/Ilgialanlarim.html">İLGİ ALANLARIM</a>
+                    <a class="nav-link" href="/Sehirim.html">ŞEHRİM</a>
+                    <a class="nav-link" href="/Mirasimiz.html">MİRASIMIZ</a>
+                    <a class="nav-link" href="/Iletisim.html">İLETİŞİM</a>
                     <a class="nav-link active" href="#">GİRİŞ</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <form action="php/giris.php" method="POST">
-        <div class="container-md shadow">
-            <h3 class="Rustik ana-baslik mb-4">GİRİŞ</h3>
-            <div class="shadow" style="margin-left: auto; margin-right: auto;">
+    <form action="php/giris.php" method="POST" class="mt-3">
+        <div class="container-md shadow-sm">
+            <div style="margin-left: auto; margin-right: auto;">
                 <div class="row text-start">
                     <label for="email_">
                         <h4 class="Rustik baslik">Email</h4>
                     </label>
-                    <input type="email" required class="form-control" name="email_" id="email_"
+                    <input type="email" required class="form-control yazi-giris" name="email_" id="email_"
                         aria-describedby="emailHelp">
                 </div>
                 <div class="row text-start">
                     <label for="sifre_">
                         <h4 class="Rustik baslik">Şifre</h4>
                     </label>
-                    <input type="password" required class="form-control" name="sifre_" id="sifre_">
+                    <input type="password" required class="form-control yazi-giris" name="sifre_" id="sifre_">
                 </div>
                 <button type="submit" class="buton baslik" id="buton">Giriş</button>
                 <br>

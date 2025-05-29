@@ -56,21 +56,8 @@
   font-size: 23px !important;
 }
 
-.buton {
-  height: 40px;
-  border-radius: 5px;
-  margin-top: 10px;
-  border-color: #212529;
-  background-color: #212529;
-  color: #f7f7f7;
-}
-
-.yazi {
-  color: #212529;
-}
-
 #buton-sil {
-  width:auto;
+  width: auto;
   margin-left: 0px;
 }
 
@@ -104,6 +91,11 @@
     margin-right: 20% !important;
     margin-left: 20% !important;
     width: 60%;
+  }
+  #buton-gozat {
+    margin-right: 40% !important;
+    margin-left: 40% !important;
+    width: 20%;
   }
   #radio {
     text-align: center;

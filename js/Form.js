@@ -9,7 +9,6 @@ document.getElementById("buton-gonder").addEventListener("click", function () {
   const mesaj = document.getElementById("mesaj_").value;
   const cinsiyetler = document.querySelectorAll('input[name="cinsiyet"]:checked');
   const ilgiler = document.querySelectorAll('input[name="ilgi"]:checked');
-  const renk = document.getElementById("renk_").value;
   const dosya = document.getElementById("dosya_").files[0];
 
   if (ad == "") hataMesaji += "Ad boş olamaz<br>";
@@ -18,7 +17,6 @@ document.getElementById("buton-gonder").addEventListener("click", function () {
   if (mesaj.length < 15) hataMesaji += "Mesaj en az 15 karakter olmalıdır <br>";
   if (cinsiyetler.length == 0) hataMesaji += "insiyet seçilmelidir<br>";
   if (ilgiler.length == 0) hataMesaji += "En az bir ilgi alanı seçilmelidir <br>";
-  if (!renk) hataMesaji += "Renk seçilmelidir<br>";
   if (!dosya) {
     hataMesaji += "- Dosya seçilmelidir<br>";
   } else {

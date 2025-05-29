@@ -33,48 +33,49 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" style="margin-left: 10px;">
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/index.html">HAKKIMDA</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Egitim.html">ÖZGEÇMİŞ</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Ilgialanlarim.html">İLGİ ALANLARIM</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Sehirim.html">ŞEHRİM</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Mirasimiz.html">MİRASIMIZ</a>
+                    <a class="nav-link" href="/index.html">HAKKIMDA</a>
+                    <a class="nav-link" href="/Egitim.html">ÖZGEÇMİŞ</a>
+                    <a class="nav-link" href="/Ilgialanlarim.html">İLGİ ALANLARIM</a>
+                    <a class="nav-link" href="/Sehirim.html">ŞEHRİM</a>
+                    <a class="nav-link" href="/Mirasimiz.html">MİRASIMIZ</a>
                     <a class="nav-link active" href="#">İLETİŞİM</a>
-                    <a class="nav-link" href="https://tahakadir-c.ct.ws/Giris.html">GİRİŞ</a>
+                    <a class="nav-link" href="/Giris.html">GİRİŞ</a>
                 </div>
             </div>
         </div>
     </nav>
 
 
-    <div class="container-md shadow">
+    <div class="container-md shadow-sm mt-2">
         <form action="php/iletisim.php" method="post" id="form">
-            <h3 class="Rustik ana-baslik mb-4">İLETİŞİM</h3>
             <div class="row text-start">
                 <label for="ad">
                     <h4 class="Rustik baslik">İsminiz</h4>
                 </label>
-                <input type="text" class="form-control" name="ad" id="ad_" aria-describedby="emailHelp">
+                <input type="text" class="form-control yazi-giris" name="ad" id="ad_" aria-describedby="emailHelp">
             </div>
             <br>
             <div class="row text-start">
                 <label for="email_">
                     <h4 class="Rustik baslik">Email</h4>
                 </label>
-                <input type="email" class="form-control" name="mail" id="email_" aria-describedby="emailHelp">
+                <input type="email" class="form-control yazi-giris" name="mail" id="email_"
+                    aria-describedby="emailHelp">
             </div>
             <br>
             <div class="row text-start">
                 <label for="sifre_">
                     <h4 class="Rustik baslik">Şifre</h4>
                 </label>
-                <input type="password" class="form-control" name="mail" id="sifre_" aria-describedby="emailHelp">
+                <input type="password" class="form-control yazi-giris" name="mail" id="sifre_"
+                    aria-describedby="emailHelp">
             </div>
             <br>
             <div class="row text-start">
                 <label for="sifre_">
                     <h4 class="Rustik baslik">Mesaj</h4>
                 </label>
-                <textarea type="password" class="form-control" name="mail" id="mesaj_"
+                <textarea type="password" class="form-control yazi-giris" name="mail" id="mesaj_"
                     aria-describedby="emailHelp"></textarea>
             </div>
             <br>
@@ -90,28 +91,23 @@
                 <label for="ilgi_">
                     <h4 class="Rustik baslik">İlgi alanları</h4>
                 </label>
-                <div class="yazi" style="margin-left: 9%;" id="radio">SPOR <input type="checkbox" name="ilgi" id="ilgi_"
-                        value="erkek"> MÜZİK <input type="checkbox" name="ilgi" id="ilgi_" value="kadin"></div>
+                <div class="yazi" style="margin-left: 9%;" id="radio"> <span class="yazi">SPOR</span> <input
+                        type="checkbox" name="ilgi" id="ilgi_" value="erkek"> MÜZİK <input type="checkbox" name="ilgi"
+                        id="ilgi_" value="kadin"></div>
             </div>
             <br>
-            <div class="row text-start">
-                <label for="renk_">
-                    <h4 class="Rustik baslik">Renk Seç</h4>
-                </label>
-                <input type="color" id="renk_" name="renk">
-            </div>
-            <br>
-            <div class="row text-start">
-                <label for="dosya_">
+            <div class="text-start">
+                <label for="dosya_" class="row text-start">
                     <h4 class="Rustik baslik">Resim Yükle</h4>
                 </label>
-                <label for="dosya_" class="buton" id="gozat_">GÖZAT</label>
-                <input type="file" id="dosya_" name="dosya" accept="image/png, image/jpeg, image/gif" style="display: none;">
+                <button for="dosya_" type="button" class="buton baslik"  id="buton-gozat"><label for="dosya_">GÖZAT</label></button>
+                <input type="file" id="dosya_" name="dosya" accept="image/png, image/jpeg, image/gif"
+                    style="display: none;">
             </div>
             <br>
             <input type="submit" class="buton baslik" id="buton-gonder" value="Gönder">
-            <input type="reset" value="Sıfırla" class="buton baslik" id="buton-sil">
-            <button value="test" type="button" class="buton baslik" id="buton-test">TEST ET</button>
+            <input type="reset" value="Sıfırla" class="buton buton-yan baslik" id="buton-sil">
+            <button value="test" type="button" class="buton buton-yan baslik" id="buton-test">TEST ET</button>
             <br>
             <br>
         </form>

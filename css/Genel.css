@@ -1,14 +1,15 @@
 .ana-baslik {
-  color: #212529;
+  color: #cecdcd;
   font-weight: bold;
   font-size: 40px !important;
 }
 
 .baslik {
+  opacity: 0.7;
   font-size: 25px;
   font-weight: bold;
   font-family: "Rubik";
-  color: #212529;
+  color: #e2e2e2;
   text-align: left;
 }
 
@@ -16,6 +17,12 @@
   font-size: 25px;
   font-family: "Rubik";
   color: aliceblue;
+}
+
+.yazi-giris{
+  background-color: #ffffff28 !important;
+  color: rgb(255, 255, 255) !important;
+  font-family: "Rubik";
 }
 
 .link {
@@ -49,6 +56,22 @@
   font-family: "Rubik" !important;
   font-weight: 700px;
   font-size: 23px;
+}
+
+.buton{
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center !important;
+  border-color: #212529;
+  color: #f7f7f7;
+  background-color: #36363679 !important;
+  padding-left: 0px !important;
+  margin-left: calc(9% + 2px) !important;
+}
+
+.buton-yan{
+  margin-left: 5px !important;
 }
 
 #navbarNavAltMarkup {

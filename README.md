@@ -14,4 +14,4 @@ KULLANDIĞIM HOSTİNG SERVİSİ:
     https://www.infinityfree.com/
 
 WEB SİTESİ ADRESİ:
-    https://tahakadir-c.ct.ws/
+    

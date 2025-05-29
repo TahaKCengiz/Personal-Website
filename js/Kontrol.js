@@ -14,7 +14,6 @@ const Kontrol = () => {
       var mesaj = form.mesaj_.value;
       var cinsiyet = form.querySelector('input[name="cinsiyet"]:checked');
       var ilgiler = form.querySelectorAll('input[name="ilgi"]:checked');
-      var renk = form.renk_.value;
       var dosya = form.dosya_.files[0];
 
       if (!ad) {
@@ -29,8 +28,6 @@ const Kontrol = () => {
         hata = "Cinsiyet seçilmedi!";
       } else if (ilgiler.length < 1) {
         hata = "İlgi seçilmeli!";
-      } else if (!renk) {
-        hata = "Renk seçilmedi!";
       } else if (!dosya) {
         hata = "Dosya yok!";
       }
